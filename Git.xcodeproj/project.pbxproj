@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		110FCA622B144DBB004B62D7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 110FCA612B144DBB004B62D7 /* main.c */; };
+		110FCA622B144DBB004B62D7 /* Git.c in Sources */ = {isa = PBXBuildFile; fileRef = 110FCA612B144DBB004B62D7 /* Git.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		110FCA5E2B144DBB004B62D7 /* Git */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Git; sourceTree = BUILT_PRODUCTS_DIR; };
-		110FCA612B144DBB004B62D7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		110FCA612B144DBB004B62D7 /* Git.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Git.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		110FCA602B144DBB004B62D7 /* Git */ = {
 			isa = PBXGroup;
 			children = (
-				110FCA612B144DBB004B62D7 /* main.c */,
+				110FCA612B144DBB004B62D7 /* Git.c */,
 			);
 			path = Git;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				110FCA622B144DBB004B62D7 /* main.c in Sources */,
+				110FCA622B144DBB004B62D7 /* Git.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
