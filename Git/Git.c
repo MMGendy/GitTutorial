@@ -16,7 +16,7 @@ int main()
 {
 
     int list[] = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31 };
-    int target = 5, sizeList = 16, found = 0;
+    int target = 5, sizeList = 16, found = 0, where = 0;
     
     printf("Enter a target value (-1 to exit): ");
     scanf("%d", &target);
@@ -25,7 +25,7 @@ int main()
     {
         if (target >= 1 && target <= 31)
         {
-            found = binarySearch(list, target, sizeList - 1);
+            found = binarySearch(list, target, sizeList - 1, &where);
             displaySearchResult(target, found, where);
         }
         else
