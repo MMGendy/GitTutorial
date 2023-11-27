@@ -1,7 +1,7 @@
 //
 //  main.c
 //  Git
-//
+//  Program to demonstrate how to create a Git repository and push to GitHub
 //  Created by Marttina Gendy on 11/26/23.
 //
 
