@@ -16,11 +16,22 @@ int main()
     int list[] = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31 };
     int target = 5, sizeList = 16, found = 0;
     
-    found = binarySearch(list, target, sizeList - 1);
-    target = 6;
-    found = binarySearch(list, target, sizeList - 1);
-    target = 29;
-    found = binarySearch(list, target, sizeList - 1);
+    printf("Enter a target value (-1 to exit): ");
+    scanf("%d", &target);
+    
+    while (target != -1)
+    {
+        if (target >= 1 && target <= 31)
+        {
+            found = binarySearch(list, target, sizeList - 1);
+        }
+        else
+        {
+            printf("Out of range; Please enter a value between 1 and 31\n");
+        }
+        printf("\nNext value: ");
+        scanf("%d", &target);
+    }
 }
 
 int binarySearch(int arr[], int target, int n)
@@ -52,4 +63,5 @@ int binarySearch(int arr[], int target, int n)
         printf("Key value not in list\n");
     return(found);
 }
+
 
